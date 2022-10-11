@@ -21,6 +21,15 @@ export const Footer = () => {
           </div>
           <div className="col text-footer">
             <a
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Guardini Philama
+            </a>
+          </div>
+          <div className="col text-footer">
+            <a
               href="https://github.com/javierhuebra"
               target="_blank"
               rel="noreferrer"
@@ -35,15 +44,6 @@ export const Footer = () => {
               rel="noreferrer"
             >
               Williams Hernández
-            </a>
-          </div>
-          <div className="col text-footer">
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Guardini Philama
             </a>
           </div>
         </div>
