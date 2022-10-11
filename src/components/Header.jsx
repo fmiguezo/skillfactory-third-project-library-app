@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 export const Header = () => {
   return (
     <div className="container-fluid header">
-      <nav className="navbar navbar-expand-lg d-flex align-items-center h-100">
+      <nav className="navbar navbar-expand-lg d-flex align-items-center h-100 text-white ">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand text-white" href="/">
             Tuki Public Library
           </a>
 					
@@ -20,25 +20,25 @@ export const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse text-white" id="navbarNav">
             <ul className="navbar-nav  ms-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" href="#">
+                <NavLink  to="#">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="#">
+                <NavLink  to="#">
                   Login
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="#">
+                <NavLink  to="#">
                   Register
                 </NavLink>
               </li>
 							<li className="nav-item">
-                <NavLink className="nav-link" href="#">
+                <NavLink  to="#">
                   Contact
                 </NavLink>
               </li>

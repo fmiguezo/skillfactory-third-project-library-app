@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="container">
         <div className="row mx-auto">
           <div className="col font-weight-bold ">
-					<i class="fa-brands fa-github fa-2x me-4"></i>
+					<i className="fa-brands fa-github fa-2x me-4"></i>
             Developed by:
           </div>
           <div className="col text-footer">

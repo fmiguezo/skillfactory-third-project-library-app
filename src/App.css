@@ -8,8 +8,12 @@ body {
 	color: white;
 }
 
-a:link, a:visited, a:active{
+a {
 	color: white;
+}
+
+a:hover{ 
+color: red;
 }
 
 a {
@@ -38,7 +42,4 @@ a {
   left: 0;
   font-size: 1.03rem;
   transition: 0.3s;
-}
-.col img {
-  margin-right: 1rem;
 }
