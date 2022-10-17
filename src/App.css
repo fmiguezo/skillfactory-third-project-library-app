@@ -491,6 +491,26 @@ background: linear-gradient(0deg, rgba(22,74,167,1) 0%, rgba(3,14,89,1) 100%);
   }
 }
 
+/* Estilos Footer */
+.footer {
+display: flex;
+justify-content: space-around;
+background-color: #000;
+padding: 20px;
+margin-top: 30px;
+color: white;
+font-weight: bold;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0177b2;
+}
+
 /* ---------------------- */
 
 

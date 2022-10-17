@@ -1,10 +1,11 @@
-import './App.css';
-import BooksForm from './components/BooksForm';
-import BooksList from './components/BooksList';
-import Header from './components/Header';
-import BookDetail from './components/BookDetail';
-import { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import "./App.css";
+
+import BooksList from "./components/BooksList";
+import Header from "./components/Header";
+import BookDetail from "./components/BookDetail";
+import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import { Footer } from "./components/Footer";
 
 function App() {
   const [stateModal, setStateModal] = useState(false);
@@ -14,32 +15,49 @@ function App() {
   //console.log("BooksList: ", books);
 
   //ESTO ES PARA DESACTIVAR EL SCROLL SI SE ABRE EL MODAL (MODAL CASERITO, HAND MADE, PARA PRACTICAR JE)
-  if(stateModal){
-       document.body.style.overflow = 'hidden'; 
-  }else{
-      document.body.style.overflow = 'unset'; 
+  if (stateModal) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "unset";
   }
-
 
   return (
     <div className="App">
-      <Header 
+      <Header
         setStateModal={setStateModal}
         stateLogin={stateLogin}
         setStateLogin={setStateLogin}
         statePreview={statePreview}
-        setStatePreview={setStatePreview}/>
+        setStatePreview={setStatePreview}
+      />
       <Routes>
-        <Route path='/' 
-          element={<BooksList stateModal={stateModal}
-          setStateModal={setStateModal}
-          stateLogin={stateLogin}
-          statePreview={statePreview}/>}/>
-        <Route path='/book-detail/:id' element={<BookDetail stateLogin={stateLogin} statePreview={statePreview}/>}/>
-        <Route path='*' element={<div><h2>ERROR 404: Not Found</h2></div>}/>
+        <Route
+          path="/"
+          element={
+            <BooksList
+              stateModal={stateModal}
+              setStateModal={setStateModal}
+              stateLogin={stateLogin}
+              statePreview={statePreview}
+            />
+          }
+        />
+        <Route
+          path="/book-detail/:id"
+          element={
+            <BookDetail stateLogin={stateLogin} statePreview={statePreview} />
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <div>
+              <h2>ERROR 404: Not Found</h2>
+            </div>
+          }
+        />
       </Routes>
-      
-      
+      <Footer />
     </div>
   );
 }
