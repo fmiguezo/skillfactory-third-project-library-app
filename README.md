@@ -65,7 +65,7 @@ npm install uuid
 ## Developing the app
 As the first step, we defined the MVP and designed the UI for our library app. We then created the repository in Github and each member forked the project.
 
-<img src="public/Screenshot_46.png">
+<img src="public/Screenshot_49.png">
 
  The goal of the first Sprint was to have the CRUD ready, to keep working on improving the UI on the second Sprint.
 
@@ -80,7 +80,7 @@ During the second stage, we implemented React-Toastify to show warning, success 
 
 
 ## How can you use this app?
-#### 1. Cloning the React App
+### 1. Cloning the React App
 
 ##### Creating a New Folder
 First create a new folder. You can name it whatever you want.
@@ -99,7 +99,7 @@ git clone https://github.com/hernandw/skillfactory-third-project-library-app.git
 
 At the end of the process, if you did everything correctly, you won't encounter any errors meaning the cloning process was completed successfully.
 
-#### 2. Configuring the Cloned App
+### 2. Configuring the Cloned App
 
 Once you’ve completed the previous step, you need to create your own `package-lock.json` file and `node_modules` folder. You don’t need to manually create these, as the following commands we run will create them.
 Press `ctrl + j` on Windows or `command + j` on Mac to open your terminal on VSCode.
@@ -125,3 +125,11 @@ If you are not or if you are not sure you are, cd to the right directory.
 Once the command is done running, your React app will open on your local host on your default browser.
 `https:// localhost:3000`
 _Congratulations, you've successfully cloned and started your React app._
+
+
+## Team
+
+|![Image Flor](https://github.com/fmiguezo.png) Flor| ![Image Guardini](https://github.com/philama.png) Guardini | ![Image Will](https://github.com/hernandw.png)Will |![Image Javi](https://github.com/javierhuebra.png) Javi|
+| :---: | :---: | :---: | :---: |
+
+---
