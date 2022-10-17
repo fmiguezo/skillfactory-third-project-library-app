@@ -59,7 +59,7 @@ const BookshtmlForm = ({ btonName, setStateModal }) => {
     if (params.id) {
       setBook(books.find((book) => book.id === params.id));
     }
-  }, []);
+  }, [books, params.id]);
 
   return (
     <div className="modal-edicion">
