@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38fb7744.css",
+    "main.js": "/static/js/main.6564cdfe.js",
+    "static/media/librin-logo.png": "/static/media/librin-logo.e5fb601e51e55fcad9f4.png",
+    "index.html": "/index.html",
+    "main.38fb7744.css.map": "/static/css/main.38fb7744.css.map",
+    "main.6564cdfe.js.map": "/static/js/main.6564cdfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38fb7744.css",
+    "static/js/main.6564cdfe.js"
+  ]
+}
