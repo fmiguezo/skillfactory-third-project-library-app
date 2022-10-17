@@ -22,6 +22,7 @@
 /* ESTILOS HEADER */
 .nav-bar{
   width: 100vw;
+  padding: 0 100px;
   height: 10vh;
   background: rgb(22,74,167);
   background: linear-gradient(0deg, rgba(22,74,167,1) 0%, rgba(3,14,89,1) 100%);
