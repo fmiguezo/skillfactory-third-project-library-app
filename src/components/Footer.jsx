@@ -21,7 +21,7 @@ export const Footer = () => {
           </div>
           <div className="col text-footer">
             <a
-              href="#"
+              href="https://github.com/Philama"
               target="_blank"
               rel="noreferrer"
             >

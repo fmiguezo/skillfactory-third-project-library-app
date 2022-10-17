@@ -1,24 +1,47 @@
-import React from 'react'
-import { Header } from './components/Header'
-import './App.css'
-import { Footer } from './components/Footer'
-import { Search } from './components/Search'
+import './App.css';
+import BooksForm from './components/BooksForm';
+import BooksList from './components/BooksList';
+import Header from './components/Header';
+import BookDetail from './components/BookDetail';
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-const App = () => {
+function App() {
+  const [stateModal, setStateModal] = useState(false);
+  const [stateLogin, setStateLogin] = useState(true);
+  const [statePreview, setStatePreview] = useState(false);
+
+  //console.log("BooksList: ", books);
+
+  //ESTO ES PARA DESACTIVAR EL SCROLL SI SE ABRE EL MODAL (MODAL CASERITO, HAND MADE, PARA PRACTICAR JE)
+  if(stateModal){
+       document.body.style.overflow = 'hidden'; 
+  }else{
+      document.body.style.overflow = 'unset'; 
+  }
+
+
   return (
-    <>
-      <div>
-      <Header  />
+    <div className="App">
+      <Header 
+        setStateModal={setStateModal}
+        stateLogin={stateLogin}
+        setStateLogin={setStateLogin}
+        statePreview={statePreview}
+        setStatePreview={setStatePreview}/>
+      <Routes>
+        <Route path='/' 
+          element={<BooksList stateModal={stateModal}
+          setStateModal={setStateModal}
+          stateLogin={stateLogin}
+          statePreview={statePreview}/>}/>
+        <Route path='/book-detail/:id' element={<BookDetail stateLogin={stateLogin} statePreview={statePreview}/>}/>
+        <Route path='*' element={<div><h2>ERROR 404: Not Found</h2></div>}/>
+      </Routes>
+      
+      
     </div>
-    <div>
-      <Search  />
-    </div>
-    <div>
-      <Footer  />
-    </div>
-    </>
-  )
+  );
 }
 
-export default App
-
+export default App;
