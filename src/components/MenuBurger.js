@@ -33,15 +33,14 @@ const MenuBurger = ({
       {stateLogin && (
         <button
           onClick={() => setStatePreview(!statePreview)}
-          className={`btns-menucito ${statePreview ? "adm-view" : "cli-view"}`}
+          className={`btns-menucito ${statePreview ?   "cli-view" : "adm-view"}`}
         >
           {statePreview ? <RiSettings5Fill /> : <RiUser3Line />}
           {statePreview ? "Admin View" : "Client View"}
         </button>
       )}
 
-      <button className="btns-menucito">Help</button>
-      <button className="btns-menucito">Creators</button>
+      
       {stateLogin && (
         <button onClick={changeLogin} className="btns-menucito btn-log-out">
           Log out

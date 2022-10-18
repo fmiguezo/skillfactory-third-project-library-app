@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer";
 function App() {
   const [stateModal, setStateModal] = useState(false);
   const [stateLogin, setStateLogin] = useState(true);
-  const [statePreview, setStatePreview] = useState(false);
+  const [statePreview, setStatePreview] = useState(true);
 
   //console.log("BooksList: ", books);
 
