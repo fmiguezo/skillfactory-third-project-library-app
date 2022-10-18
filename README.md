@@ -85,9 +85,13 @@ The goal of the first Sprint was to have the CRUD ready, to keep working on impr
 The members of the team who were focused on the graphics began laying out the app and styling it with CSS. They created components for some sections, such as, the NavBar, the Footer. People working on the functionality had the task to create all necessary book components, their routes, and all slicers and reducers. At this point we also had to define how book IDs would be managed. For this we chose to use uuid. Once the CRUD was ready we started working on form validations using mostly RegEx.
 During the second stage, we implemented React-Toastify to show warning, success and error messages in the CRUD actions. We also worked on improving the Responsive UI by adding hamburger buttons and modals.
 
+
+## Mobile design first
+<p><img src="https://i.ibb.co/WnSbrNC/imagenes-responsive.png"/></p>
+
+## Responsive Web design with different views
 <img src="public/Screenshot_47.png">
 <img src="public/Screenshot_48.png">
-
 ## How can you use this app?
 
 ### 1. Cloning the React App
@@ -139,7 +143,7 @@ _Congratulations, you've successfully cloned and started your React app._
 
 ## Team
 
-|![Image Flor](https://github.com/fmiguezo.png) Flor| ![Image Mel](https://github.com/philama.png) Guardini | ![Image Will](https://github.com/javierhuebra.png) Javi |![Image Fabri](https://github.com/hernandw.png) Will|
+|![Image Flor](https://github.com/fmiguezo.png) Flor| <img height="230px" width="300px" src=https://github.com/philama.png /> Guardini | ![Image Will](https://github.com/javierhuebra.png) Javi |![Image Fabri](https://github.com/hernandw.png) Will|
 | :---: | :---: | :---: | :---: |
 
 
