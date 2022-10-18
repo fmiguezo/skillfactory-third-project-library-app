@@ -2,8 +2,9 @@
 # Avalith Skill Factory React - Checkpoint #3
 
 ## Main goal: Develop a responsive library app. 
+---
 
-#### Requirements:
+### Requirements:
 
 
   ✅ Create the project using React CRA CLI.
@@ -25,12 +26,14 @@
   ✅ Design the UI for the Login and Register
 
 
-## How did we work?
+## How did we work? 
+---
 Since the time we had to develop this app was rather reduced, organization was a key factor for the group, so we implemented the SCRUM methodology. We had dailies in the morning and defined two Sprints. To manage the Product Backlog we chose Trello. Each member of the team was assigned tasks they were required to complete for each sprint. Some members focused on the UI while others worked on the functionality.
 
 <img src="public/Screenshot_45.png">
 
 ## Installation and dependencies
+---
 We started the project by creating a react app using
 
 ``` 
@@ -63,6 +66,7 @@ npm install uuid
 ```
 
 ## Developing the app
+---
 As the first step, we defined the MVP and designed the UI for our library app. We then created the repository in Github and each member forked the project.
 
 <img src="public/Screenshot_49.png">
@@ -80,6 +84,7 @@ During the second stage, we implemented React-Toastify to show warning, success 
 
 
 ## How can you use this app?
+---
 ### 1. Cloning the React App
 
 ##### Creating a New Folder
@@ -129,11 +134,15 @@ _Congratulations, you've successfully cloned and started your React app._
 
 ## Team
 
-|![Image Flor](https://github.com/fmiguezo.png) Flor| ![Image Guardini](https://github.com/philama.png) Guardini | ![Image Will](https://github.com/hernandw.png)Will |![Image Javi](https://github.com/javierhuebra.png) Javi|
-| :---: | :---: | :---: | :---: |
+___
 
+
+
+<div style="display:flex;justify-content:space-around;text-align:center;font-weight:bold"><div><img src="https://github.com/fmiguezo.png" alt="Your image title" width="150"/><p>Flor</p></div> <div><img src="https://github.com/philama.png" alt="Your image title" width="150"/><p>Guardini</p></div><div><img src="https://github.com/javierhuebra.png" alt="Your image title" width="150"/><p>Javi</p></div><div><img src="https://github.com/hernandw.png" alt="Your image title" width="150"/><p>Will</p></div></div>
+
+
+
+## Demo
 ---
 
-## Publish
-
-https://skillfactory-third-project.netlify.app/
+ If you want to see the demo of this proyect deployed, you can visit [https://skillfactory-third-project.netlify.app](https://skillfactory-third-project.netlify.app)
