@@ -143,7 +143,7 @@ const initialState = [
   },
   {
     id: "15",
-    title: "Killing the SS: The Hunt for the Worst War Criminals in History",
+    title: "Killing the SS",
     author: ["Bill O'Reilly"],
     yearOfPublication: "2018",
     srcImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524496931l/38714362.jpg",
