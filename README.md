@@ -132,7 +132,7 @@ _Congratulations, you've successfully cloned and started your React app._
 
 ## Team
 
-<p align="center"><div><img src="https://github.com/fmiguezo.png" alt="Your image title" width="150"/><p>Flor</p></div> <div><img src="https://github.com/philama.png" alt="Your image title" width="150"/><p>Guardini</p></div><div><img src="https://github.com/javierhuebra.png" alt="Your image title" width="150"/><p>Javi</p></div><div><img src="https://github.com/hernandw.png" alt="Your image title" width="150"/><p>Will</p></div></p>
+<div style="display:flex;justify-content:space-around"><div><img src="https://github.com/fmiguezo.png" alt="Your image title" width="150"/><p>Flor</p></div> <div><img src="https://github.com/philama.png" alt="Your image title" width="150"/><p>Guardini</p></div><div><img src="https://github.com/javierhuebra.png" alt="Your image title" width="150"/><p>Javi</p></div><div><img src="https://github.com/hernandw.png" alt="Your image title" width="150"/><p>Will</p></div></p>
 
 ## Demo
 
