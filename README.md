@@ -68,6 +68,12 @@ npm install react-router-dom@6
 npm install uuid
 ```
 
+• react-icnos with
+
+```
+npm i react-icons
+```
+
 ## Developing the app
 
 As the first step, we defined the MVP and designed the UI for our library app. We then created the repository in Github and each member forked the project.
@@ -130,9 +136,12 @@ Once the command is done running, your React app will open on your local host on
 `https:// localhost:3000`
 _Congratulations, you've successfully cloned and started your React app._
 
+
 ## Team
 
-<div style="display:flex;justify-content:space-around"><div><img src="https://github.com/fmiguezo.png" alt="Your image title" width="150"/><p>Flor</p></div> <div><img src="https://github.com/philama.png" alt="Your image title" width="150"/><p>Guardini</p></div><div><img src="https://github.com/javierhuebra.png" alt="Your image title" width="150"/><p>Javi</p></div><div><img src="https://github.com/hernandw.png" alt="Your image title" width="150"/><p>Will</p></div></p>
+|![Image Flor](https://github.com/fmiguezo.png) Flor| ![Image Mel](https://github.com/philama.png) Guardini | ![Image Will](https://github.com/javierhuebra.png) Javi |![Image Fabri](https://github.com/hernandw.png) Will|
+| :---: | :---: | :---: | :---: |
+
 
 ## Demo
 
