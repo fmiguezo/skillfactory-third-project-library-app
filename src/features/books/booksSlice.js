@@ -141,6 +141,16 @@ const initialState = [
       "Noches blancas es una novela del autor ruso Fiódor Dostoievski publicada en 1848, al inicio de la carrera del autor. Como muchas de sus obras, esta novela está narrada en primera persona por un narrador, sin nombre. El protagonista es el arquetipo del joven soñador y solitario e imagina constantemente su vejez solitaria. Durante uno de sus largos y cotidianos paseos por las calles de San Petersburgo se encuentra con una joven, Nástienka. Hasta entonces, él nunca había hablado con mujeres y mucho menos se había enamorado, pero hay algo en ella que le hechiza. El relato está estructurado durante cuatro noches y una mañana.",
     isbn: "9789580471509",
   },
+  {
+    id: "15",
+    title: "Killing the SS: The Hunt for the Worst War Criminals in History",
+    author: ["Bill O'Reilly"],
+    yearOfPublication: "2018",
+    srcImage: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524496931l/38714362.jpg",
+    description:
+      "As the true horrors of the Third Reich began to be exposed immediately after World War II, the Nazi war criminals who committed genocide went on the run. A few were swiftly caught, including the notorious SS leader, Heinrich Himmler. Others, however, evaded capture through a sophisticated Nazi organization designed to hide them. Among those war criminals were Josef Mengele, the 'Angel of Death' who performed hideous medical experiments at Auschwitz; Martin Bormann, Hitler's brutal personal secretary; Klaus Barbie, the cruel 'Butcher of Lyon'; and perhaps the most awful Nazi of all: Adolf Eichmann.",
+    isbn: "9781250165541",
+  },
 ];
 export const booksSlice = createSlice({
   //reducers es el que va a contener multiples funciones
