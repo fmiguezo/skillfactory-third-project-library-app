@@ -92,6 +92,7 @@ During the second stage, we implemented React-Toastify to show warning, success 
 ## Responsive Web design with different views
 <img src="public/Screenshot_47.png">
 <img src="public/Screenshot_48.png">
+
 ## How can you use this app?
 
 ### 1. Cloning the React App
